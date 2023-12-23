@@ -9,7 +9,7 @@ import NextButton from "./NextButton";
 import Progress from "./Progress";
 import FinishedScreen from "./FinishedScreen";
 import Timer from "./Timer";
-import Footer from "./Footer";
+
 
 
 const SECS_PER_QUESTION=30;
