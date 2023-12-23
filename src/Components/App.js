@@ -79,7 +79,7 @@ function App() {
   );
 
   useEffect(function () {
-    fetch("http://localhost:8000/questions")
+    fetch("https://api.jsonserve.com/FTZyIB")
       .then((response) => response.json())
       .then((data) => dispatch({ type: "dataReceived", payload: data }))
       .catch((err) => dispatch({ type: "dataFailed" }));
